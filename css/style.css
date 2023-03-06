@@ -203,4 +203,8 @@ hr{
    .btn ,.links{
     font-size: 1rem;
    }
+   .skills{
+    max-width: 100%;
+    font-size: 1.8em;
+   }
 }
