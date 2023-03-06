@@ -29,7 +29,7 @@ p{
     font-size: 1rem;
 }
 .Myname{
-    width: 30%;
+    width: 50%;
     font-size: 5em;
 }
 .programmer{
@@ -158,4 +158,47 @@ hr{
     color: #EAF6F6;
     margin-top: 20px;
     font-size: 1rem;
+}
+
+
+@media only screen and (max-width:700px) {
+    .Myname {
+      width: 100%;
+      font-size: 3.9em;
+    }
+
+    .top-cloud,.down-cloud{
+        display: none;
+    }
+    .codelogo{
+        max-width: 20%;
+        height: auto;
+    }
+
+   .dp{
+    max-width:40%;
+   }
+   .devicon{
+    max-width: 60%;
+    height: auto;
+    float: none;
+    margin: 0px auto;
+   }
+   .skill-row{
+    text-align: center;
+    font-size: 1.2em;
+   }
+   .skill-row p{
+    font-size: .8em;
+    text-align: justify;
+   }
+   .communication{
+    max-width: 60%;
+    height: auto;
+    float: none;
+    margin: 0px auto;
+   }
+   .btn ,.links{
+    font-size: 1rem;
+   }
 }
